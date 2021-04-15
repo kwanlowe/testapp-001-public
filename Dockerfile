@@ -1,4 +1,4 @@
-FROM golang:1.15.7
+FROM golang:1.11.5
 
 # Copy everything from the current directory to the PWD (Present Working Directory) inside the container
 COPY testapp-001 .
